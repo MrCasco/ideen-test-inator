@@ -11,5 +11,5 @@ function comenzar() {
   console.log('function parImpar(x){');
   console.log('    ...');
   console.log('};');
-  console.log('Cuando hayas temrinado, teclea probarParImpar() para probar tu código!');
+  console.log('Cuando hayas terminado, teclea probarParImpar() para probar tu código!');
 }
