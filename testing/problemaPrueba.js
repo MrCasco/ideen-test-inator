@@ -10,7 +10,6 @@ const numPruebas = Object.keys(respuestas).length;
 // Funcion que manda llamar los unit tests
 // de cada elemento en el diccionario respuestas
 function probarParImpar() {
-  let resultadosPruebas = [];
   let pruebasIncorrectas = 0;
   // Iteración para testear cada caso
   Object.entries(respuestas).forEach((item, i) => {
