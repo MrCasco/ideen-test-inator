@@ -13,3 +13,5 @@ function comenzar() {
   console.log('};');
   console.log('Cuando hayas terminado, teclea probarParImpar() para probar tu código!');
 }
+
+// parImpar = (x) => x%2 == 0 ? 'PAR':'IMPAR'
