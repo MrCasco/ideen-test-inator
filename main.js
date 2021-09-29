@@ -1,17 +1,15 @@
-console.log('¿Bienvenid@ desarrollador/a quieres tomar nuestro challenge de programación?');
-console.log('Teclea comenzar() para empezar');
+console.log('%c ¿Bienvenid@ desarrollador/a quieres tomar nuestro challenge de programación?', inputText);
+console.log('%c Teclea comenzar() para empezar', inputText);
 
 function comenzar() {
-  console.log('Dado un número entero, tienes que determinar si es \'PAR\' o \'IMPAR\'');
-  console.log('Ejemplo:');
-  console.log('Input: 34, Output: PAR');
-  console.log('Input: 5, Output: IMPAR');
-  console.log('Input: -1, Output: IMPAR');
-  console.log('Elabora tu función de esta manera:');
-  console.log('function parImpar(x){');
-  console.log('    ...');
-  console.log('};');
-  console.log('Cuando hayas terminado, teclea probarParImpar() para probar tu código!');
+  console.log('%c Dado un número entero, tienes que determinar si es \'PAR\' o \'IMPAR\'', inputText);
+  console.log('%c Ejemplo:', inputText);
+  console.log('%c Input: 34, Output: PAR', inputText);
+  console.log('%c Input: 5, Output: IMPAR', inputText);
+  console.log('%c Input: -1, Output: IMPAR', inputText);
+  console.log('%c Elabora tu función de esta manera:', inputText);
+  console.log('%c parImpar(x){ return ... }', inputText);
+  console.log('%c Cuando hayas terminado, teclea probarParImpar() para probar tu código!', inputText);
 }
 
 // parImpar = (x) => x%2 == 0 ? 'PAR':'IMPAR'
