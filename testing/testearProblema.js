@@ -1,4 +1,3 @@
-const textoStyle = 'background: #3EABF0; font-size: 18px;';
 // const timeout = (prom, time) => Promise.race([prom, new Promise((_r, rej) => setTimeout(rej, time))]);
 
 // function medirTiempo(arg, fun) {
@@ -25,6 +24,6 @@ async function testearProblema(arg, exp, fun) {
     resultStyle += 'background: red; color: black;';
     correctoIncorecto = 'INCORRECTO';
   }
-  console.log('%c Input: '+arg.toString()+' %c Output: '+res+' -> '+correctoIncorecto, textoStyle, resultStyle);
+  console.log('%c Input: '+arg.toString()+' %c Output: '+res+' -> '+correctoIncorecto, inputText, resultStyle);
   return correctoIncorecto == 'CORRECTO';
 }
