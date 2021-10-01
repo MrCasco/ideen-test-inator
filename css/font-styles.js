@@ -2,3 +2,4 @@ const trippy = "text-shadow: -1px -1px hsl(0,100%,50%), 1px 1px hsl(5.4, 100%, 5
 const blueText = 'background: #3EABF0; font-size: 18px;';
 const orangeText = 'background: orange; font-size: 18px;';
 const yellowText = 'background: yellow; font-size: 18px;';
+const warningText = 'background: #FF4000; font-size: 18px;';
