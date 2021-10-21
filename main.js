@@ -15,7 +15,8 @@ function comenzar() {
 }
 
 if (pruebaResuelta) {
-  desplegarFacilRandom();
+  probarBotePintura();
+  //desplegarFacilRandom();
 }
 else {
   console.log('No has resuelto la prueba');
