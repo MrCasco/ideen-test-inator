@@ -15,9 +15,12 @@ function comenzar() {
 }
 
 if (pruebaResuelta) {
-  desplegarFacilRandom();
+  probarValorMaxArray();
+  //desplegarFacilRandom();
 }
 else {
-  console.log('No has resuelto la prueba puñlal');
+  console.log('No has resuelto la prueba');
 }
 // parImpar = (x) => x%2 == 0 ? 'PAR':'IMPAR'
+
+
