@@ -16,10 +16,16 @@ function probarParImpar() {
 
     console.log('%c Han pasado '+(numPruebas-pruebasIncorrectas).toString()+'/'+numPruebas.toString()+' pruebas', blueText);
     if (pruebasIncorrectas == 0) {
-      console.log('todas');
+      //console.log('todas');
       pruebaResuelta = true;
+      Siguiente();
     }
   } catch (e) {
     console.log('%c Ups...no has escrito la función aún, asegúrate de haberla llamado parImpar ', warningText);
   }
+}
+function Siguiente() {
+  console.log('%c Felicidades! Has pasado la prueba.', css);
+  console.log('%c Si deseas continuar con la prueba fácil escribe Siguiente()', blueText);
+  desplegarFacilRandom();
 }
