@@ -10,7 +10,7 @@
 // recibe argumento a probar, resultado esperado, mensaje y la función que debe correr
 // NOTA: El parametro que corresponde a la función a probar se manda sin paréntesis e.g
 // testearProblema(54, 'PAR', parImpar)
-async function testearProblema(arg, exp, fun) {
+function testearProblema(arg, exp, fun) {
   let resultStyle = 'font-size: 18px;';
   let correctoIncorecto = 'CORRECTO';
 

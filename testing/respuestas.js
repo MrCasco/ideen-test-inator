@@ -33,5 +33,9 @@ const problemasYRespuestas = {
     'respuestas': diccionarioArgumentosRespuestas(['CIFRADO', 'SALUDOS', 'PRUEBA', 'ENCRIPTAR', 'CODIGO', 'ADIOS'], ['FLIUDGR', 'VDOXGRV', 'SUXHED', 'HQFULSWDU', 'FRGLJR', 'DGLRV']),
     'size': Object.keys(diccionarioArgumentosRespuestas(['CIFRADO', 'SALUDOS', 'PRUEBA', 'ENCRIPTAR', 'CODIGO', 'ADIOS'], ['FLIUDGR', 'VDOXGRV', 'SUXHED', 'HQFULSWDU', 'FRGLJR', 'DGLRV'])).length
   },
+  'bote-pintura':{
+    'respuestas': diccionarioArgumentosRespuestas( [8, 15, 48, 56, 90, 96, 45],['A', 'B', 'A', 'A', 'B', 'A', 'B']),
+    'size': Object.keys(diccionarioArgumentosRespuestas([8, 15, 48, 56, 90, 96, 45], ['A', 'B', 'A', 'A', 'B', 'A', 'B'])).length
+  }
 }
 
