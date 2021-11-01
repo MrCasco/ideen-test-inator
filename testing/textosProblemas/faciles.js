@@ -8,8 +8,8 @@ const faciles = {
 };
 
 const faciles = {
-  'cifrado-cesar': "Se recibe una palabra/frase la cual se necesita encriptar\n"+
-                    "Ejemplo, si desplazamos cada letra tres posiciones a la derecha en el alfabeto: HELLO WORLD será KHOOR ZRUOG.\n"+
-                    "Así obteniendo el encriptamiento de la palabra/frase que se recibe."
+  'cifrado-cesar':  " Se recibe una palabra/frase la cual se necesita encriptar\n"+
+                    " Ejemplo, si desplazamos cada letra tres posiciones a la derecha en el alfabeto: HELLO WORLD será KHOOR ZRUOG.\n"+
+                    " Así obteniendo el encriptamiento de la palabra/frase que se recibe."
 }
 
