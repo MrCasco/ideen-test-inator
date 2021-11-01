@@ -10,12 +10,12 @@ const faciles = {
                    " El bote B tiene 8L y rinde para 15 mts"+
                    " Elabora tu función de la siguiente manera: function botePintura(x){ ... }"+
                    " Se da una cantidad de metros a pintar (con 96 como valor máximo), y se tiene que determinar qué bote se tiene que comprar, si el bote A o el B."+
-                   " Cuando hayas terminado teclea probarPrimerProblema()",              
+                   " Cuando hayas terminado teclea probarPrimerProblema()",
+  'cifrado-cesar': " Se recibe una palabra/frase la cual se necesita encriptar\n"+
+                   " Ejemplo, si desplazamos cada letra tres posiciones a la derecha en el alfabeto: HELLO WORLD será KHOOR ZRUOG.\n"+
+                   " Así obteniendo el encriptamiento de la palabra/frase que se recibe.",
+  'coin-machine': " Una máquina que proporciona cambio.\n"+
+                  " Suponga que le dan las monedas de:\n"+
+                  " 1 centavo, 5 centavos y 10 centavos con N =13 centavos.\n"+
+                  " ¿Cuál es el número total de combinaciones de las monedas que puede organizar para obtener 13 centavos?"
 };
-
-const faciles = {
-  'cifrado-cesar': "Se recibe una palabra/frase la cual se necesita encriptar\n"+
-                    "Ejemplo, si desplazamos cada letra tres posiciones a la derecha en el alfabeto: HELLO WORLD será KHOOR ZRUOG.\n"+
-                    "Así obteniendo el encriptamiento de la palabra/frase que se recibe."
-}
-
