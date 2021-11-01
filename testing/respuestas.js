@@ -40,6 +40,10 @@ const problemasYRespuestas = {
   'coin-machine': {
     'respuestas': diccionarioArgumentosRespuestas([], []),
     'size': Object.keys(diccionarioArgumentosRespuestas([], [])).length
+  },
+  'valor-max-array':{
+    'respuestas': diccionarioArgumentosRespuestas([[2,56,1,4,43], [23,45,1,9,2], [-12,12,-1,23,4], [1000,457,2,999,23], [-502,34,96,123,243]], [56, 45, 1000, 243, -871.6]),
+    'size': Object.keys(diccionarioArgumentosRespuestas([[2,56,1,4,43], [23,45,1,9,2], [-12,12,-1,23,4], [1000,457,2,999,23], [-502,34,96,123,243]], [56, 45, 1000, 243, -871.6])).length
   }
 }
 

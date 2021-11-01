@@ -15,10 +15,13 @@ function comenzar() {
 }
 
 if (pruebaResuelta) {
-  probarBotePintura();
-  //desplegarFacilRandom();
+  //probarBotePintura();
+  //probarValorMaxArray();
+  desplegarFacilRandom();
 }
 else {
   console.log('No has resuelto la prueba');
 }
 // parImpar = (x) => x%2 == 0 ? 'PAR':'IMPAR'
+
+

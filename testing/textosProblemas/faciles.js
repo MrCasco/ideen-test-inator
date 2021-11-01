@@ -17,5 +17,7 @@ const faciles = {
   'coin-machine': " Una máquina que proporciona cambio.\n"+
                   " Suponga que le dan las monedas de:\n"+
                   " 1 centavo, 5 centavos y 10 centavos con N =13 centavos.\n"+
-                  " ¿Cuál es el número total de combinaciones de las monedas que puede organizar para obtener 13 centavos?"
+                  " ¿Cuál es el número total de combinaciones de las monedas que puede organizar para obtener 13 centavos?",
+  'valor-max-array': " Dado un arreglo de números, recorrer el mismo para poder dar un\n"+
+                     " return con el máximo valor dentro del mismo\n"
 };
