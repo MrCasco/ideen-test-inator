@@ -4,6 +4,12 @@ function diccionarioConLlavesNegativas(llaves, valores){
   return res;
 }
 
+function diccionarioArgumentosRespuestas(llaves, valores){
+  let res = {};
+  llaves.forEach((key, i) => res[key] = valores[i]);
+  return res;
+}
+
 const problemasYRespuestas = {
   'prueba': {
     'respuestas': {
@@ -22,5 +28,10 @@ const problemasYRespuestas = {
   'centigrados-fahrenheit': {
     'respuestas': diccionarioConLlavesNegativas([0, 1, -10, 1000, -502], [32, 33.8, 14, 1832, -871.6]),
     'size': Object.keys(diccionarioConLlavesNegativas([0, 1, -10, 1000, -502], [32, 33.8, 14, 1832, -871.6])).length
-  }
+  },
+  'cifrado-cesar': {
+    'respuestas': diccionarioArgumentosRespuestas(['CIFRADO', 'SALUDOS', 'PRUEBA', 'ENCRIPTAR', 'CODIGO', 'ADIOS'], ['FLIUDGR', 'VDOXGRV', 'SUXHED', 'HQFULSWDU', 'FRGLJR', 'DGLRV']),
+    'size': Object.keys(diccionarioArgumentosRespuestas(['CIFRADO', 'SALUDOS', 'PRUEBA', 'ENCRIPTAR', 'CODIGO', 'ADIOS'], ['FLIUDGR', 'VDOXGRV', 'SUXHED', 'HQFULSWDU', 'FRGLJR', 'DGLRV'])).length
+  },
 }
+
