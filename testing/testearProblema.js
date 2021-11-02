@@ -9,13 +9,22 @@
 // Funcion que ejecuta test unitario
 // recibe argumento a probar, resultado esperado, mensaje y la función que debe correr
 // NOTA: El parametro que corresponde a la función a probar se manda sin paréntesis e.g
-// testearProblema(54, 'PAR', parImpar)
-async function testearProblema(arg, exp, fun) {
+// testearProblema(54, 'PAR', parImpar, 'parImpar')
+function testearProblema(arg, exp, fun, nombre) {
   let resultStyle = 'font-size: 18px;';
   let correctoIncorecto = 'CORRECTO';
+  let res = null
 
   // const res = await timeout(medirTiempo(arg, fun), 1000)
-  const res = fun(arg);
+  try {
+    res = fun(arg);
+    console.log(nombre);
+  } catch (e) {
+    console.log(nombre);
+    console.log(e);
+    console.log('%c Ups...parece que no has escrito la función aún, asegúrate de haberla llamado '+nombre, warningText);
+    return -1
+  }
 
   if (res == exp) {
     resultStyle += 'background: green; color: white;';
