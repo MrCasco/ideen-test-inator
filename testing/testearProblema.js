@@ -18,7 +18,10 @@ function testearProblema(arg, exp, fun, nombre) {
   // const res = await timeout(medirTiempo(arg, fun), 1000)
   try {
     res = fun(arg);
+    console.log(nombre);
   } catch (e) {
+    console.log(nombre);
+    console.log(e);
     console.log('%c Ups...parece que no has escrito la función aún, asegúrate de haberla llamado '+nombre, warningText);
     return -1
   }

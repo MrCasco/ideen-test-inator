@@ -19,8 +19,8 @@ function getFunction(nombre) {
       case 'coinMachine':
         temp = coinMachine
         break;
-      case 'valorMaxArray':
-        temp = valorMaxArray
+      case 'maxArray':
+        temp = maxArray
         break;
     }
   } catch (e) {
@@ -54,6 +54,14 @@ function probarProblemaFacil(nombre) {
   console.log('%c Has pasado '+(numPruebas-pruebasIncorrectas).toString()+'/'+numPruebas.toString()+' pruebas', blueText);
   if (pruebasIncorrectas == 0) {
     console.log('todas');
-    facilResuelto = true;
+    if(nombre=="parImpar"){
+      facilResuelto = true;
+      console.log('%c Felicidades! Has pasado la prueba.', css);
+      console.log('%c Si deseas continuar con la prueba fácil escribe Siguiente();', blueText);
+    }
   }
+}
+
+function Siguiente() {
+  desplegarFacilRandom();
 }
