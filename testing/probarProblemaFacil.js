@@ -32,6 +32,7 @@ function getFunction(nombre) {
 // Funcion que manda llamar los unit tests
 // de cada elemento en el diccionario respuestas
 function probarProblemaFacil(nombre) {
+  console.log(nombre);
   let pruebasIncorrectas = 0;
   let respuestas = problemasYRespuestas[nombre]['respuestas']
   let numPruebas = problemasYRespuestas[nombre]['size'];
