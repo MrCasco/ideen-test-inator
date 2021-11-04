@@ -19,6 +19,7 @@ function testearProblema(arg, exp, fun, nombre) {
   try {
     res = fun(arg);
   } catch (e) {
+    console.log(e);
     console.log('%c Ups...parece que no has escrito la función aún, asegúrate de haberla llamado '+nombre, warningText);
     return -1
   }

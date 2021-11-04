@@ -31,8 +31,7 @@ function getFunction(nombre) {
 
 // Funcion que manda llamar los unit tests
 // de cada elemento en el diccionario respuestas
-function probarProblemaFacil(nombre) {
-  console.log(nombre);
+function probarProblema(nombre) {
   let pruebasIncorrectas = 0;
   let respuestas = problemasYRespuestas[nombre]['respuestas']
   let numPruebas = problemasYRespuestas[nombre]['size'];
@@ -52,17 +51,31 @@ function probarProblemaFacil(nombre) {
     }
   }
 
-  console.log('%c Has pasado '+(numPruebas-pruebasIncorrectas).toString()+'/'+numPruebas.toString()+' pruebas', blueText);
+  console.log('%c Has pasado '+(numPruebas-pruebasIncorrectas).toString()+'/'+numPruebas.toString()+' pruebas', blueText)
+
   if (pruebasIncorrectas == 0) {
-    console.log('todas');
-    if(nombre=="parImpar"){
-      facilResuelto = true;
-      console.log('%c Felicidades! Has pasado la prueba.', css);
-      console.log('%c Si deseas continuar con la prueba fácil escribe Siguiente();', blueText);
+    if (nombre == "parImpar") {
+      pruebaResuelta = true
+      console.log('%c ¡Felicidades! Has pasado la prueba.', css)
+      console.log('%c Si deseas continuar escribe siguiente()', blueText)
+    }
+    else if (pruebaResuelta) {
+      facilResuelto = true
+      console.log('%c ¡Felicidades! Has pasado nuestro primer problema fácil', css)
+      console.log('%c Si deseas continuar con un problema más difícil, escribe siguiente()', blueText)
+      console.log('%c Si deseas enviar tus resultados ya, escribe enviarResultados()', blueText)
     }
   }
 }
 
-function Siguiente() {
-  desplegarFacilRandom();
+function siguiente() {
+  if (!pruebaResuelta) {
+    console.log('%c No has resuelto el problema de prueba para avanzar :(', warningText)
+  }
+  else if (!facilResuelto) {
+    desplegarProblemaRandom('facil')
+  }
+  else if (!dificilResuelto) {
+    desplegarProblemaRandom('dificil')
+  }
 }

@@ -12,13 +12,4 @@ function comenzar() {
   console.log('%c parImpar(x){ return ... }', blueText);
   console.log('%c Cuando hayas terminado, teclea probarProblemaFacil("parImpar") para probar tu código!', blueText);
 }
-
-if (pruebaResuelta) {
-  //probarBotePintura();
-  //probarValorMaxArray();
-  desplegarFacilRandom();
-}
-else {
-  console.log('No has resuelto la prueba');
-}
 // parImpar = (x) => x%2 == 0 ? 'PAR':'IMPAR'
