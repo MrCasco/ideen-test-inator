@@ -7,7 +7,7 @@ function diccionarioArgumentosRespuestas(llaves, valores){
 function declararLongitud() {
   Object.entries(problemasYRespuestas).forEach((item, i) => {
     [name, resp] = item
-    problemasYRespuestas[name]['length'] = Object.keys(resp['respuestas']).length
+    problemasYRespuestas[name]['size'] = Object.keys(resp['respuestas']).length
   });
 }
 
@@ -28,7 +28,10 @@ let problemasYRespuestas = {
     'respuestas': diccionarioArgumentosRespuestas([], [])
   },
   'maxArray':{
-    'respuestas': diccionarioArgumentosRespuestas([[2,56,1,4,43], [23,45,1,9,2], [-12,12,-1,23,4], [1000,457,2,999,23], [-502,34,96,123,243]], [56, 45, 1000, 243, -871.6])
+    'respuestas': diccionarioArgumentosRespuestas([[2,56,1,4,43], [23,45,1,9,2], [-12,12,-1,23,4], [1000,457,2,999,23], [-502,34,96,123,243], [-1, -1000, -200, -882, 0]], [56, 45, 23, 1000, 243, 0])
+  },
+  'twoSum': {
+    'respuestas': diccionarioArgumentosRespuestas([[1, 2, 3, 4, 5, 2], [1, 2, 3, 4, 5, 6, 7, 11], [-5, 5, 0, 5], [1, 1, 2, 2], [1, 2, 2, 1]], [[null, null], [4, 7], [5, 0], [1, 1], [null, null]])
   }
 }
 
