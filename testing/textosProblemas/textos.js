@@ -58,5 +58,6 @@ const dificiles = {
     " Input: [1,2,3,4] y [2.3] \n"+
     " Expected output: True\n"+
     " Input: [1.2.3,4] y [3,2,1] \n"+
-    " Expected output: False",
+    " Expected output: False"+
+    " Cuando hayas terminado teclea probarProblema('subsequence')\n"
 };
