@@ -49,5 +49,15 @@ const dificiles = {
     " [0, 1, 3, 2] = [null, null]:\n"+
     " Explicación: En el arreglo [0, 1, 3] ninguna pareja suma 2, ya que el último número no se cuenta\n "+
     " Elabora tu función de la siguiente manera: function twoSum(arr){ ... }\n"+
-    " Cuando hayas terminado teclea probarProblema('twoSum')\n"
-}
+    " Cuando hayas terminado teclea probarProblema('twoSum')\n",
+  'subsequence': " Dado un array principal, comprobar si la secuencia de entrada \n"+
+    " representa una subsecuencia del arreglo principal."+
+    " Se considera una subsecuencia de un arreglo a un conjunto de numeros que estan presentes \n"+
+    " en el arreglo original, manteniendo el orden que presentan en el mismo\n"+
+    " Ejemplo: \n"+
+    " Input: [1,2,3,4] y [2.3] \n"+
+    " Expected output: True\n"+
+    " Input: [1.2.3,4] y [3,2,1] \n"+
+    " Expected output: False"+
+    " Cuando hayas terminado teclea probarProblema('subsequence')\n"
+};
