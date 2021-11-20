@@ -1,4 +1,4 @@
-function getFunction(nombre) {
+  function getFunction(nombre) {
   let temp = '';
   try {
     switch (nombre) {
