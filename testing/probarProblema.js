@@ -22,6 +22,15 @@
       case 'maxArray':
         temp = maxArray
         break;
+      case 'twoSum':
+        temp = twoSum
+        break;
+      case 'subsequence':
+        temp = subsequence
+        break;
+      case 'botePinturaAvanzado':
+        temp = botePinturaAvanzado
+        break;
     }
   } catch (e) {
     return null

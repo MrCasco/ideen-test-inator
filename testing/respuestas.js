@@ -35,7 +35,10 @@ let problemasYRespuestas = {
   },
   'subsequence':{
     'respuestas': diccionarioArgumentosRespuestas([[[3,6,7,2,5],[6,7,2]],[[1,3,5,8,2],[3,5,1,8]],[[4,2,3,2], [2,3]],[[1,3,5,2,8],[8,2,5]] ], [true, false, true, false])
-  }
+  },
+  'botePinturaAvanzado': {
+    'respuestas': diccionarioArgumentosRespuestas([56, 30, 10, 20, 90, 45, ], ['4B', '2B', '1A', '2A', '6B', '3B'])
+  },
 }
 
 declararLongitud()
