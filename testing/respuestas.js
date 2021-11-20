@@ -25,7 +25,7 @@ let problemasYRespuestas = {
     'respuestas': diccionarioArgumentosRespuestas([8, 15, 48, 56, 90, 96, 45], ['A', 'B', 'A', 'A', 'B', 'A', 'B'])
   },
   'coinMachine': {
-    'respuestas': diccionarioArgumentosRespuestas([], [])
+    'respuestas': diccionarioArgumentosRespuestas([13, 28, 133], [4, 12, 196])
   },
   'maxArray':{
     'respuestas': diccionarioArgumentosRespuestas([[2,56,1,4,43], [23,45,1,9,2], [-12,12,-1,23,4], [1000,457,2,999,23], [-502,34,96,123,243], [-1, -1000, -200, -882, 0]], [56, 45, 23, 1000, 243, 0])
