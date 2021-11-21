@@ -31,6 +31,7 @@ function testearProblema(arg, exp, fun, nombre) {
     resultStyle += 'background: red; color: black;';
     correctoIncorecto = 'INCORRECTO';
   }
+  console.log(arg);
   console.log('%c Input: '+arg.toString()+' %c Output: '+res+' -> '+correctoIncorecto, blueText, resultStyle);
   return correctoIncorecto == 'CORRECTO';
 }

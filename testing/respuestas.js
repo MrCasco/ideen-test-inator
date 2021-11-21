@@ -34,7 +34,7 @@ let problemasYRespuestas = {
   'maxArray':{
     'respuestas': multiplesArgumentos([[2,56,1,4,43], [23,45,1,9,2], [-12,12,-1,23,4], [1000,457,2,999,23], [-502,34,96,123,243], [-1, -1000, -200, -882, 0]], [56, 45, 23, 1000, 243, 0])
   },
-  'twoSum': {
+  'twoSum': { 
     'respuestas': multiplesArgumentos([[1, 2, 3, 4, 5, 2], [1, 2, 3, 4, 5, 6, 7, 11], [-5, 5, 0, 5], [1, 1, 2, 2], [1, 2, 2, 1]], [[null, null], [4, 7], [5, 0], [1, 1], [null, null]])
   },
   'subsequence':{
