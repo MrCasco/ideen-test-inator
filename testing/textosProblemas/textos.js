@@ -63,7 +63,7 @@ const dificiles = {
       " Elabora tu función de la siguiente manera: function subsequence(args){ ... }\n"+
       " Cuando hayas terminado teclea probarProblema('subsequence')\n",
   'palindromo': " Dado un string, determinar si es palindromo.\n "+
-      " Ejemplo: \n "+
+      " Ejemplo: \n "+ 
       " abcba - True \n "+
       " abababa - True \n "+
       " ab - False \n "+
