@@ -1,4 +1,4 @@
-function getFunction(nombre) {
+  function getFunction(nombre) {
   let temp = '';
   try {
     switch (nombre) {
@@ -21,6 +21,15 @@ function getFunction(nombre) {
         break;
       case 'maxArray':
         temp = maxArray
+        break;
+      case 'twoSum':
+        temp = twoSum
+        break;
+      case 'subsequence':
+        temp = subsequence
+        break;
+      case 'botePinturaAvanzado':
+        temp = botePinturaAvanzado
         break;
       case 'palindromo':
         temp = palindromo

@@ -10,6 +10,6 @@ function comenzar() {
   console.log('%c Input: -1, Output: IMPAR', blueText);
   console.log('%c Elabora tu función de esta manera:', blueText);
   console.log('%c parImpar(x){ return ... }', blueText);
-  console.log('%c Cuando hayas terminado, teclea probarProblemaFacil("parImpar") para probar tu código!', blueText);
+  console.log('%c Cuando hayas terminado, teclea probarProblema("parImpar") para probar tu código!', blueText);
 }
 // parImpar = (x) => x%2 == 0 ? 'PAR':'IMPAR'
