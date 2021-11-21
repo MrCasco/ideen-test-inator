@@ -25,12 +25,12 @@ const faciles = {
       " ¿Cuál es el número total de combinaciones de las monedas que puede organizar para obtener 13 centavos?\n"+
       " Elabora tu función de la siguiente manera: function coinMachine(x){ ... }"+
       " Cuando hayas terminado teclea probarProblema('coinMachine')",
-  'maxArray': " Dado un array de números, recorrer el mismo para poder dar un\n"+
+  'maxArray': " Dado un arreglo de números, recorrer el mismo para poder dar un\n"+
       " return con el máximo valor dentro del mismo\n"+
       " Ejemplo 1:\n"+
-      " '[1, 56, 7, 8, 33]' = 56\n"+
+      " [1, 56, 7, 8, 33] = 56\n"+
       " Ejemplo 2:\n"+
-      " '[-100, -200, -44, 0]' = 0\n"+
+      " [-100, -200, -44, 0] = 0\n"+
       " Elabora tu función de la siguiente manera: function maxArray(x){ ... }\n"+
       " Cuando hayas terminado teclea probarProblema('maxArray')\n",
 };
@@ -47,8 +47,8 @@ const dificiles = {
     " '[1,2,3,4,5,2]' = [null, null]:\n"+
     " Explicación: Ninguna pareja suma 2 en el arreglo\n "+
     " Ejemplo 3:\n"+
-    " '[0,1,3,2]' = [null, null]:\n"+
-    " Explicación: En el arreglo [0, 1, 3] ninguna pareja suma 2, ya que el último número no se cuenta\n "+
+    " '[0,1,2,2]' = [null, null]:\n"+
+    " Explicación: En el arreglo [0, 1, 2] ninguna pareja suma 2, ya que el último número no se cuenta\n "+
     " Elabora tu función de la siguiente manera: function twoSum(arr){ ... }\n"+
     " Cuando hayas terminado teclea probarProblema('twoSum')\n",
   'subsequence': " Dado un arreglo con 2 arreglos dentro, comprobar si el segundo de ellos \n"+
@@ -63,7 +63,7 @@ const dificiles = {
       " Elabora tu función de la siguiente manera: function subsequence(args){ ... }\n"+
       " Cuando hayas terminado teclea probarProblema('subsequence')\n",
   'palindromo': " Dado un string, determinar si es palindromo.\n "+
-      " Ejemplo: \n "+ 
+      " Ejemplo: \n "+
       " abcba - True \n "+
       " abababa - True \n "+
       " ab - False \n "+
