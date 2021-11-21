@@ -22,6 +22,9 @@ function getFunction(nombre) {
       case 'maxArray':
         temp = maxArray
         break;
+      case 'palindromo':
+        temp = palindromo
+        break;
     }
   } catch (e) {
     return null

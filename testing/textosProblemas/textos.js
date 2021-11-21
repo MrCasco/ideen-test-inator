@@ -59,5 +59,13 @@ const dificiles = {
     " Expected output: True\n"+
     " Input: [1.2.3,4] y [3,2,1] \n"+
     " Expected output: False"+
-    " Cuando hayas terminado teclea probarProblema('subsequence')\n"
+    " Cuando hayas terminado teclea probarProblema('subsequence')\n",
+  'palindromo': " Dado un string, determinar si es palindromo.\n "+
+    " Ejemplo: \n "+
+    " abcba - True \n "+
+    " abababa - True \n "+
+    " ab - False \n "+
+    " abcbc - False \n "+
+    " Elabora tu función de la siguiente manera: function palindromo(str){ ... }\n"+
+    " Cuando hayas terminado teclea probarProblema('palindromo')\n"
 };
