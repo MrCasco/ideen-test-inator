@@ -68,7 +68,7 @@ const dificiles = {
     " abcbc - False \n "+
     " Elabora tu función de la siguiente manera: function palindromo(str){ ... }\n"+
     " Cuando hayas terminado teclea probarProblema('palindromo')\n"
-  'botePintura': " Existen 2 tipos de bote de pintura:\n"+
+  'botePinturaAvanzado': " Existen 2 tipos de bote de pintura:\n"+
     " El bote A tiene 5L y rinde para 10 mts su costo es de $35\n"+
     " El bote B tiene 8L y rinde para 15 mts su costo es de $45\n"+
     " Se da una cantidad de metros a pintar, y se tiene que determinar\n"+
