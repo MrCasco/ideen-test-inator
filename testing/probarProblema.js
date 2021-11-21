@@ -1,4 +1,6 @@
-  function getFunction(nombre) {
+let startDateFacil, endDateFacil, startDateDificil, endDateDificil;
+
+function getFunction(nombre) {
   let temp = '';
   try {
     switch (nombre) {
@@ -71,10 +73,18 @@ function probarProblema(nombre) {
       console.log('%c ¡Felicidades! Has pasado la prueba.', css)
       console.log('%c Si deseas continuar escribe siguiente()', blueText)
     }
-    else if (pruebaResuelta) {
+    else if (pruebaResuelta && facilResuelto==false) {
+      endDateFacil = new Date();
+      time(startDateFacil, endDateFacil);
       facilResuelto = true
       console.log('%c ¡Felicidades! Has pasado nuestro primer problema fácil', css)
       console.log('%c Si deseas continuar con un problema más difícil, escribe siguiente()', blueText)
+      console.log('%c Si deseas enviar tus resultados ya, escribe enviarResultados()', blueText)
+    }
+    else if (pruebaResuelta && facilResuelto==true){
+      endDateDificil = new Date();
+      time(startDateDificil, endDateDificil);
+      console.log('%c ¡Felicidades! Has pasado el problema difícil', css)
       console.log('%c Si deseas enviar tus resultados ya, escribe enviarResultados()', blueText)
     }
   }
@@ -85,9 +95,25 @@ function siguiente() {
     console.log('%c No has resuelto el problema de prueba para avanzar :(', warningText)
   }
   else if (!facilResuelto) {
+    startDateFacil = new Date();
     desplegarProblemaRandom('facil')
   }
   else if (!dificilResuelto) {
+    startDateDificil = new Date();
     desplegarProblemaRandom('dificil')
   }
+}
+
+function time(startDate, endDate){
+  var difference = endDate - startDate;
+  var day_as_milliseconds = 86400000;
+  var hour_as_milliseconds = 3600000;
+  var min_as_milliseconds = 60000;
+  var sec_as_milliseconds = 1000;
+
+  var dia = Math.trunc(difference/day_as_milliseconds);
+  var hora = Math.trunc(difference/hour_as_milliseconds);
+  var minutos = Math.trunc(difference/min_as_milliseconds);
+  var segundos = Math.trunc(difference/sec_as_milliseconds);
+  //console.log(" Días: "+dia+" Horas: "+hora+" Minutos: "+minutos+" Segundos: "+ segundos);
 }
