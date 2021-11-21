@@ -42,6 +42,9 @@ let problemasYRespuestas = {
   'palindromo':{
     'respuestas': diccionarioArgumentosRespuestas(['abcba','abba', 'ab', 'abcbc' ], [true, true, false, false])
   },
+  'valoresEnComun':{
+    'respuestas': diccionarioArgumentosRespuestas([[[3, 4, 6, 1], [2, 4, 1, 5]], [[4, 6, 23, 67, 2], [2, 6, 1, 98, 23]], [[56, 34, 5, 1], [4, 1, 4, 6, 5]], [[2, 3, 6, 12, 1], [2, 3, 6, 12, 1]]], [[4, 1], [6, 23], [5, 1], [2, 3, 6, 12, 1]])
+  }
 }
 
 declararLongitud()

@@ -67,7 +67,7 @@ const dificiles = {
     " ab - False \n "+
     " abcbc - False \n "+
     " Elabora tu función de la siguiente manera: function palindromo(str){ ... }\n"+
-    " Cuando hayas terminado teclea probarProblema('palindromo')\n"
+    " Cuando hayas terminado teclea probarProblema('palindromo')\n",
   'botePinturaAvanzado': " Existen 2 tipos de bote de pintura:\n"+
     " El bote A tiene 5L y rinde para 10 mts su costo es de $35\n"+
     " El bote B tiene 8L y rinde para 15 mts su costo es de $45\n"+
@@ -79,5 +79,13 @@ const dificiles = {
     " (60 mts por 180) ya que se gasta menos pintura y menos dinero.\n"+
     " Por favor regresa tus respuestas en forma de String y sin espacios\n"+
     " Elabora tu función de la siguiente manera: function botePinturaAvanzado(x){ ... }\n"+
-    " Cuando hayas terminado teclea probarProblema('botePinturaAvanzado')\n"
+    " Cuando hayas terminado teclea probarProblema('botePinturaAvanzado')\n",
+  'valoresEnComun': "Dados dos arreglos de números enteros, regresa\n"+
+      "un arreglo conteniendo los valores que tengan en común."+
+      " Ejemplo:\n"+
+      " Input = [4, 6, 7, 2, 1], [3, 8, 5, 2, 9]  <- se recibe como dos arreglos de enteros\n"+
+      " Output = [2] <- se regresa como un arreglo de enteros\n"+
+      " Input = [4, 6, 1, 3], [3, 2, 5, 1]  <- se recibe como dos arreglos de enteros\n"+
+      " Elabora tu función de la siguiente manera: function valoresEnComun(x, y){ ... }\n"+
+      " Cuando hayas terminado teclea probarProblema('valoresEnComun')\n",
 };

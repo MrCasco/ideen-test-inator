@@ -36,6 +36,9 @@ function getFunction(nombre) {
       case 'palindromo':
         temp = palindromo
         break;
+      case 'valoresEnComun':
+        temp = valoresEnComun
+        break;
     }
   } catch (e) {
     return null
