@@ -25,7 +25,7 @@ const faciles = {
       " ¿Cuál es el número total de combinaciones de las monedas que puede organizar para obtener 13 centavos?\n"+
       " Elabora tu función de la siguiente manera: function coinMachine(x){ ... }"+
       " Cuando hayas terminado teclea probarProblema('coinMachine')",
-  'maxArray': " Dado un array de números, recorrer el mismo para poder dar un\n"+
+  'maxArray': " Dado un arreglo de números, recorrer el mismo para poder dar un\n"+
       " return con el máximo valor dentro del mismo\n"+
       " Ejemplo 1:\n"+
       " '[1, 56, 7, 8, 33]' = 56\n"+
@@ -63,7 +63,7 @@ const dificiles = {
       " Elabora tu función de la siguiente manera: function subsequence(args){ ... }\n"+
       " Cuando hayas terminado teclea probarProblema('subsequence')\n",
   'palindromo': " Dado un string, determinar si es palindromo.\n "+
-      " Ejemplo: \n "+ 
+      " Ejemplo: \n "+
       " abcba - True \n "+
       " abababa - True \n "+
       " ab - False \n "+
