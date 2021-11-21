@@ -25,12 +25,12 @@ const faciles = {
       " ¿Cuál es el número total de combinaciones de las monedas que puede organizar para obtener 13 centavos?\n"+
       " Elabora tu función de la siguiente manera: function coinMachine(x){ ... }"+
       " Cuando hayas terminado teclea probarProblema('coinMachine')",
-  'maxArray': " Dado un string representando un array de números, recorrer el mismo para poder dar un\n"+
+  'maxArray': " Dado un arreglo de números, recorrer el mismo para poder dar un\n"+
       " return con el máximo valor dentro del mismo\n"+
       " Ejemplo 1:\n"+
-      " '[1,56,7,8,33]' = 56\n"+
+      " '[1, 56, 7, 8, 33]' = 56\n"+
       " Ejemplo 2:\n"+
-      " '[-100,-200,-44,0]' = 56\n"+
+      " '[-100, -200, -44, 0]' = 0\n"+
       " Elabora tu función de la siguiente manera: function maxArray(x){ ... }\n"+
       " Cuando hayas terminado teclea probarProblema('maxArray')\n",
 };
