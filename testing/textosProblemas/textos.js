@@ -19,7 +19,7 @@ const faciles = {
       " ZeRo = ChUr\n"+
       " Elabora tu función de la siguiente manera: function cifradoCesar(frase){ ... }\n"+
       " Cuando hayas terminado teclea probarProblema('cifradoCesar')\n",
-  'coinMachine': " Una máquina que proporciona cambio.\n"+
+    'coinMachine': " Una máquina que proporciona cambio.\n"+
       " Suponga que le dan las monedas de:\n"+
       " 1 centavo, 5 centavos y 10 centavos con N =13 centavos.\n"+
       " ¿Cuál es el número total de combinaciones de las monedas que puede organizar para obtener 13 centavos?\n"+
@@ -50,7 +50,7 @@ const dificiles = {
     " Explicación: En el arreglo [0, 1, 3] ninguna pareja suma 2, ya que el último número no se cuenta\n "+
     " Elabora tu función de la siguiente manera: function twoSum(arr){ ... }\n"+
     " Cuando hayas terminado teclea probarProblema('twoSum')\n",
-  'subsequence': " Dado un array principal, comprobar si la secuencia de entrada \n"+
+  'subsequence': " Dado un string representando un array principal, comprobar si la secuencia de entrada \n"+
     " representa una subsecuencia del arreglo principal."+
     " Se considera una subsecuencia de un arreglo a un conjunto de numeros que estan presentes \n"+
     " en el arreglo original, manteniendo el orden que presentan en el mismo\n"+
@@ -80,12 +80,23 @@ const dificiles = {
     " Por favor regresa tus respuestas en forma de String y sin espacios\n"+
     " Elabora tu función de la siguiente manera: function botePinturaAvanzado(x){ ... }\n"+
     " Cuando hayas terminado teclea probarProblema('botePinturaAvanzado')\n",
-  'valoresEnComun': "Dados dos arreglos de números enteros, regresa\n"+
+  'valoresEnComun': "Dados dos strings representando dos arreglos de números enteros, regresa\n"+
       "un arreglo conteniendo los valores que tengan en común."+
       " Ejemplo:\n"+
       " Input = [4, 6, 7, 2, 1], [3, 8, 5, 2, 9]  <- se recibe como dos arreglos de enteros\n"+
       " Output = [2] <- se regresa como un arreglo de enteros\n"+
       " Input = [4, 6, 1, 3], [3, 2, 5, 1]  <- se recibe como dos arreglos de enteros\n"+
+      " Output = [1, 3] <- se regresa como un arreglo de enteros\n"+
       " Elabora tu función de la siguiente manera: function valoresEnComun(x, y){ ... }\n"+
       " Cuando hayas terminado teclea probarProblema('valoresEnComun')\n",
+  'binarySearch': "Dado un string representando un arreglo de números y un número,\n"+
+      " encuentra el índice del arreglo en el que se encuentra el número utilizando \n"+
+      " un algoritmo de Binary Search. En caso de no existir regresa un -1. \n"+
+      " Ejemplo:\n"+
+      " Input = [1, 2, 4, 6, 7], 7  <- se recibe como dos arreglos de enteros\n"+
+      " Output = 4 <- se regresa como un arreglo de enteros\n"+
+      " Input = [1, 3, 4, 6], 5  <- se recibe como dos arreglos de enteros\n"+
+      " Output = -1 <- se regresa como un arreglo de enteros\n"+
+      " Elabora tu función de la siguiente manera: function valoresEnComun(x, y){ ... }\n"+
+      " Cuando hayas terminado teclea probarProblema('binarySearch')\n",
 };

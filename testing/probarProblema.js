@@ -39,6 +39,8 @@ function getFunction(nombre) {
       case 'valoresEnComun':
         temp = valoresEnComun
         break;
+      case 'binarySearch':
+        temp = binarySearch
     }
   } catch (e) {
     return null

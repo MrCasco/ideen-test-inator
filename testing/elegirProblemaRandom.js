@@ -8,5 +8,5 @@ function desplegarProblemaRandom(tipo) {
   }
   let lista = Object.keys(problemas)
   const escogido = problemas[lista[Math.floor(Math.random()*(lista.length))]]
-  console.log('%c'+escogido, orangeText);
+  console.log('%c'+escogido, purpleText);
 }
