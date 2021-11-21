@@ -39,6 +39,9 @@ let problemasYRespuestas = {
   'botePinturaAvanzado': {
     'respuestas': diccionarioArgumentosRespuestas([56, 30, 10, 20, 90, 45, ], ['4B', '2B', '1A', '2A', '6B', '3B'])
   },
+  'palindromo':{
+    'respuestas': diccionarioArgumentosRespuestas(['abcba','abba', 'ab', 'abcbc' ], [true, true, false, false])
+  },
 }
 
 declararLongitud()

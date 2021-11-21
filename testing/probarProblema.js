@@ -33,6 +33,9 @@ function getFunction(nombre) {
       case 'botePinturaAvanzado':
         temp = botePinturaAvanzado
         break;
+      case 'palindromo':
+        temp = palindromo
+        break;
     }
   } catch (e) {
     return null

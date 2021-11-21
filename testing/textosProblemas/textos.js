@@ -60,6 +60,14 @@ const dificiles = {
     " Input: [1.2.3,4] y [3,2,1] \n"+
     " Expected output: False"+
     " Cuando hayas terminado teclea probarProblema('subsequence')\n",
+  'palindromo': " Dado un string, determinar si es palindromo.\n "+
+    " Ejemplo: \n "+
+    " abcba - True \n "+
+    " abababa - True \n "+
+    " ab - False \n "+
+    " abcbc - False \n "+
+    " Elabora tu función de la siguiente manera: function palindromo(str){ ... }\n"+
+    " Cuando hayas terminado teclea probarProblema('palindromo')\n"
   'botePintura': " Existen 2 tipos de bote de pintura:\n"+
     " El bote A tiene 5L y rinde para 10 mts su costo es de $35\n"+
     " El bote B tiene 8L y rinde para 15 mts su costo es de $45\n"+
