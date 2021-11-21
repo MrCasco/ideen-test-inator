@@ -25,14 +25,23 @@ let problemasYRespuestas = {
     'respuestas': diccionarioArgumentosRespuestas([8, 15, 48, 56, 90, 96, 45], ['A', 'B', 'A', 'A', 'B', 'A', 'B'])
   },
   'coinMachine': {
-    'respuestas': diccionarioArgumentosRespuestas([], [])
+    'respuestas': diccionarioArgumentosRespuestas([13, 28, 133], [4, 12, 196])
   },
   'maxArray':{
     'respuestas': diccionarioArgumentosRespuestas([[2,56,1,4,43], [23,45,1,9,2], [-12,12,-1,23,4], [1000,457,2,999,23], [-502,34,96,123,243], [-1, -1000, -200, -882, 0]], [56, 45, 23, 1000, 243, 0])
   },
   'twoSum': {
     'respuestas': diccionarioArgumentosRespuestas([[1, 2, 3, 4, 5, 2], [1, 2, 3, 4, 5, 6, 7, 11], [-5, 5, 0, 5], [1, 1, 2, 2], [1, 2, 2, 1]], [[null, null], [4, 7], [5, 0], [1, 1], [null, null]])
-  }
+  },
+  'subsequence':{
+    'respuestas': diccionarioArgumentosRespuestas([[[3,6,7,2,5],[6,7,2]],[[1,3,5,8,2],[3,5,1,8]],[[4,2,3,2], [2,3]],[[1,3,5,2,8],[8,2,5]] ], [true, false, true, false])
+  },
+  'botePinturaAvanzado': {
+    'respuestas': diccionarioArgumentosRespuestas([56, 30, 10, 20, 90, 45, ], ['4B', '2B', '1A', '2A', '6B', '3B'])
+  },
+  'palindromo':{
+    'respuestas': diccionarioArgumentosRespuestas(['abcba','abba', 'ab', 'abcbc' ], [true, true, false, false])
+  },
 }
 
 declararLongitud()
