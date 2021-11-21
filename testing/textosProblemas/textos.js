@@ -54,6 +54,9 @@ const dificiles = {
     " representa una subsecuencia del arreglo principal."+
     " Se considera una subsecuencia de un arreglo a un conjunto de numeros que estan presentes \n"+
     " en el arreglo original, manteniendo el orden que presentan en el mismo\n"+
+    " Se recibirá un objeto con ambos arreglos dentro del mismo \n"+
+    " Para acceder a ellos, la función recibirá como parametros 'args'\n"+
+    " Para llamarlo, bastará con incluir un args.array o args.subsequence"+
     " Ejemplo: \n"+
     " Input: [1,2,3,4] y [2.3] \n"+
     " Expected output: True\n"+

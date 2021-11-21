@@ -19,7 +19,7 @@ let problemasYRespuestas = {
     'respuestas': diccionarioArgumentosRespuestas([0, 1, -10, 1000, -502], [32, 33.8, 14, 1832, -871.6])
   },
   'cifradoCesar': {
-    'respuestas': diccionarioArgumentosRespuestas(['CIFRADO', 'SALUDOS', 'PRUEBA', 'ENCRIPTAR', 'CODIGO', 'ADIOS', 'abcDEF', 'WxYz'], ['FLIUDGR', 'VDOXGRV', 'SUXHED', 'HQFULSWDU', 'FRGLJR', 'DGLRV', 'defGHI', 'ZaBc'])
+    'respuestas': diccionarioArgumentosRespuestas(['CIFRADO', 'SALUDOS', 'PRUEBA', 'ENCRIPTAR', 'CODIGO', 'ADIOS', 'abcDEF', 'WxYz'], ['FLIUDGR', 'VDOXGRV', 'SUXHED', 'HQFULSWDU', 'FRGLJR', 'DGLRV', 'abcGHI', 'ZxBz'])
   },
   'botePintura': {
     'respuestas': diccionarioArgumentosRespuestas([8, 15, 48, 56, 90, 96, 45], ['A', 'B', 'A', 'A', 'B', 'A', 'B'])
@@ -34,7 +34,7 @@ let problemasYRespuestas = {
     'respuestas': diccionarioArgumentosRespuestas([[1, 2, 3, 4, 5, 2], [1, 2, 3, 4, 5, 6, 7, 11], [-5, 5, 0, 5], [1, 1, 2, 2], [1, 2, 2, 1]], [[null, null], [4, 7], [5, 0], [1, 1], [null, null]])
   },
   'subsequence':{
-    'respuestas': diccionarioArgumentosRespuestas([[[3,6,7,2,5],[6,7,2]],[[1,3,5,8,2],[3,5,1,8]],[[4,2,3,2], [2,3]],[[1,3,5,2,8],[8,2,5]] ], [true, false, true, false])
+    'respuestas': diccionarioArgumentosRespuestas([{array: [3,6,7,2,5], subsequence:[7,2,5]}, {array: [1,7,8,9,2], subsequence:[7,9,2]},{array: [2,3,6,7,8], subsequence:[2,3,7,6]}, {array: [2,6,8,9], subsequence:[2,5,6]} ],[true, true, false, false])
   },
   'botePinturaAvanzado': {
     'respuestas': diccionarioArgumentosRespuestas([56, 30, 10, 20, 90, 45, ], ['4B', '2B', '1A', '2A', '6B', '3B'])
