@@ -83,12 +83,12 @@ const dificiles = {
     " Elabora tu función de la siguiente manera: function botePinturaAvanzado(x){ ... }\n"+
     " Cuando hayas terminado teclea probarProblema('botePinturaAvanzado')\n",
   'valoresEnComun': "Dado un arreglo con dos arreglos dentro, regresa\n"+
-      "un arreglo conteniendo los valores que tengan en común."+
+      "true si los arreglos tienen valores en común, o false si no."+
       " Ejemplo:\n"+
       " Input = [4, 6, 7, 2, 1], [3, 8, 5, 2, 9]  <- se recibe como dos arreglos de enteros\n"+
-      " Output = [2] <- se regresa como un arreglo de enteros\n"+
+      " Output = true <- se regresa como un arreglo de enteros\n"+
       " Input = [4, 6, 1, 3], [3, 2, 5, 1]  <- se recibe como dos arreglos de enteros\n"+
-      " Output = [1, 3] <- se regresa como un arreglo de enteros\n"+
+      " Output = true <- se regresa como un arreglo de enteros\n"+
       " Elabora tu función de la siguiente manera: function valoresEnComun(x, y){ ... }\n"+
       " Cuando hayas terminado teclea probarProblema('valoresEnComun')\n",
   'binarySearch': "Dado un arreglo con un un arreglo y un número dentro, ,\n"+
