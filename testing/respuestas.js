@@ -23,7 +23,7 @@ let problemasYRespuestas = {
     'respuestas': multiplesArgumentos([0, 1, -10, 1000, -502], [32, 33.8, 14, 1832, -871.6])
   },
   'cifradoCesar': {
-    'respuestas': multiplesArgumentos(['CIFRADO', 'SALUDOS', 'PRUEBA', 'ENCRIPTAR', 'CODIGO', 'ADIOS', 'abcDEF', 'WxYz'], ['FLIUDGR', 'VDOXGRV', 'SUXHED', 'HQFULSWDU', 'FRGLJR', 'DGLRV', 'abcGHI', 'ZxBz'])
+    'respuestas': multiplesArgumentos(['CIFRADO', 'SALUDOS', 'PRUEBA', 'ENCRIPTAR', 'CODIGO', 'ADIOS', 'abcDEF', 'WxYz'], ['FLIUDGR', 'VDOXGRV', 'SUXHED', 'HQFULSWDU', 'FRGLJR', 'DGLRV', 'defGHI', 'ZaBc'])
   },
   'botePintura': {
     'respuestas': multiplesArgumentos([8, 15, 48, 56, 90, 96, 45], ['A', 'B', 'A', 'A', 'B', 'A', 'B'])
