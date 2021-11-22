@@ -20,16 +20,27 @@ function testearProblema(arg, exp, fun, nombre) {
     res = fun(arg);
   } catch (e) {
     console.log(e);
-    console.log('%c Ups...parece que no has escrito la función aún, asegúrate de haberla llamado '+nombre, warningText);
+    console.log('%c Ups...parece que no has escrito la función aún o tu código tiene un error, asegúrate de haberla llamado '+nombre, warningText);
     return -1
   }
 
-  if (res == exp) {
-    resultStyle += 'background: green; color: white;';
+  if (Object.prototype.toString.call(res) === '[object Array]') {
+    if (JSON.stringify(res) == JSON.stringify(exp)) {
+      resultStyle += 'background: green; color: white;';
+    }
+    else {
+      resultStyle += 'background: red; color: black;';
+      correctoIncorecto = 'INCORRECTO';
+    }
   }
   else {
-    resultStyle += 'background: red; color: black;';
-    correctoIncorecto = 'INCORRECTO';
+    if (res === exp) {
+      resultStyle += 'background: green; color: white;';
+    }
+    else {
+      resultStyle += 'background: red; color: black;';
+      correctoIncorecto = 'INCORRECTO';
+    }
   }
   console.log('%c Input: '+arg.toString()+' %c Output: '+res+' -> '+correctoIncorecto, blueText, resultStyle);
   return correctoIncorecto == 'CORRECTO';
