@@ -40,9 +40,13 @@ let problemasYRespuestas = {
   'subsequence':{
     'respuestas': multiplesArgumentos([
       [[1, 2, 3], [1, 2]],
-      [[1, 2, 3], [3, 2, 1]]
+      [[1, 2, 3], [3, 2, 1]],
+      [[2,4,6,7], [2,6,4]],
+      [[1,5,6,8],[5,8]],
+      [[4,2,5,9], [2,5,9]],
+      [[2,3,7,1], [1,2,3,7]]
     ],
-    [true, false])
+    [true, false, false, true, true, false])
   },
   'botePinturaAvanzado': {
     'respuestas': multiplesArgumentos([56, 30, 10, 20, 90, 45, ], ['4B', '2B', '1A', '2A', '6B', '3B'])
