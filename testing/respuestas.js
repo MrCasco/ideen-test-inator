@@ -57,10 +57,10 @@ let problemasYRespuestas = {
     'respuestas': multiplesArgumentos(['abcba','abba', 'ab', 'abcbc' ], [true, true, false, false])
   },
   'valoresEnComun':{
-    'respuestas': diccionarioArgumentosRespuestas([[[3, 4, 6, 1], [2, 4, 1, 5]], [[4, 6, 23, 67, 2], [2, 6, 1, 98, 23]], [[56, 34, 5, 1], [4, 1, 4, 6, 5]], [[2, 3, 6, 12, 1], [2, 3, 6, 12, 1]]], [[4, 1], [6, 23], [5, 1], [2, 3, 6, 12, 1]])
+    'respuestas': multiplesArgumentos([[[3, 4, 6, 1], [2, 4, 1, 5]], [[4, 6, 23, 67, 2], [2, 6, 1, 98, 23]], [[56, 34, 5, 1], [4, 1, 4, 6, 5]], [[2, 3, 6, 12, 1], [2, 3, 6, 12, 1]]], [[4, 1], [6, 23], [5, 1], [2, 3, 6, 12, 1]])
   },
   'binarySearch':{
-    'respuestas': diccionarioArgumentosRespuestas([['[1, 3, 4, 5]', 4], ['[1, 2, 4, 5]', 1], ['[2, 4, 6, 7]', 5], ['[1, 2, 3, 6, 9]', 3]], [2, 0, -1, 2])
+    'respuestas': multiplesArgumentos([[[1, 3, 4, 5], 4], [[1, 2, 4, 5], 1], [[2, 4, 6, 7], 5], [[1, 2, 3, 6, 9], 3]], [2, 0, -1, 2])
   }
 }
 

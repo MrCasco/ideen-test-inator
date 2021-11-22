@@ -82,7 +82,7 @@ const dificiles = {
     " Por favor regresa tus respuestas en forma de String y sin espacios\n"+
     " Elabora tu función de la siguiente manera: function botePinturaAvanzado(x){ ... }\n"+
     " Cuando hayas terminado teclea probarProblema('botePinturaAvanzado')\n",
-  'valoresEnComun': "Dados dos strings representando dos arreglos de números enteros, regresa\n"+
+  'valoresEnComun': "Dado un arreglo con dos arreglos dentro, regresa\n"+
       "un arreglo conteniendo los valores que tengan en común."+
       " Ejemplo:\n"+
       " Input = [4, 6, 7, 2, 1], [3, 8, 5, 2, 9]  <- se recibe como dos arreglos de enteros\n"+
@@ -91,7 +91,7 @@ const dificiles = {
       " Output = [1, 3] <- se regresa como un arreglo de enteros\n"+
       " Elabora tu función de la siguiente manera: function valoresEnComun(x, y){ ... }\n"+
       " Cuando hayas terminado teclea probarProblema('valoresEnComun')\n",
-  'binarySearch': "Dado un string representando un arreglo de números y un número,\n"+
+  'binarySearch': "Dado un arreglo con un un arreglo y un número dentro, ,\n"+
       " encuentra el índice del arreglo en el que se encuentra el número utilizando \n"+
       " un algoritmo de Binary Search. En caso de no existir regresa un -1. \n"+
       " Ejemplo:\n"+
