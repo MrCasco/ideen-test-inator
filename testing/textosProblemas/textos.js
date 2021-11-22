@@ -36,18 +36,18 @@ const faciles = {
 };
 
 const dificiles = {
-  'twoSum': " Dado un string representando un arreglo de números enteros enteros\n"+
+  'twoSum': " Dado un arreglo de números enteros\n"+
     " Determina qué par de números sumados, son iguales al último número del arreglo\n"+
     " Si no hay solución, retorna [null, null]\n"+
     " Ejemplo 1:\n"+
-    " '[1,2,3,4,5,6,7,11]' = [4, 7]:\n"+
+    " [1,2,3,4,5,6,7,11] = [4, 7]:\n"+
     " Explicación: 4 y 7 suman 11, sin embargo 5 y 6 igual, pero se tiene\n "+
     " que devolver la primer pareja de izquierda a derecha\n"+
     " Ejemplo 2:\n"+
-    " '[1,2,3,4,5,2]' = [null, null]:\n"+
+    " [1,2,3,4,5,2] = [null, null]:\n"+
     " Explicación: Ninguna pareja suma 2 en el arreglo\n "+
     " Ejemplo 3:\n"+
-    " '[0,1,3,2]' = [null, null]:\n"+
+    " [0,1,3,2] = [null, null]:\n"+
     " Explicación: En el arreglo [0, 1, 3] ninguna pareja suma 2, ya que el último número no se cuenta\n "+
     " Elabora tu función de la siguiente manera: function twoSum(arr){ ... }\n"+
     " Cuando hayas terminado teclea probarProblema('twoSum')\n",
@@ -91,7 +91,7 @@ const dificiles = {
       " Output = true <- se regresa como un arreglo de enteros\n"+
       " Elabora tu función de la siguiente manera: function valoresEnComun(x, y){ ... }\n"+
       " Cuando hayas terminado teclea probarProblema('valoresEnComun')\n",
-  'binarySearch': "Dado un arreglo con un un arreglo y un número dentro, ,\n"+
+  'binarySearch': "Dado un arreglo con un arreglo y un número dentro, ,\n"+
       " encuentra el índice del arreglo en el que se encuentra el número utilizando \n"+
       " un algoritmo de Binary Search. En caso de no existir regresa un -1. \n"+
       " Ejemplo:\n"+
