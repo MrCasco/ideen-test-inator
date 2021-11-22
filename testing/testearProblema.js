@@ -25,6 +25,17 @@ function testearProblema(arg, exp, fun, nombre) {
   }
 
   if (Object.prototype.toString.call(res) === '[object Array]') {
+    let temp = '['
+    for (let i = 0; i < res.length; i++) {
+      if (res[i] == null) {
+        temp += 'null,'
+      }
+      else {
+        temp += res[i].toString() + ','
+      }
+    }
+    arg = '[' + arg.join(',') + ']'
+    temp = temp.slice(0, temp.length-1) + ']'
     if (JSON.stringify(res) == JSON.stringify(exp)) {
       resultStyle += 'background: green; color: white;';
     }
@@ -32,6 +43,7 @@ function testearProblema(arg, exp, fun, nombre) {
       resultStyle += 'background: red; color: black;';
       correctoIncorecto = 'INCORRECTO';
     }
+    res = temp
   }
   else {
     if (res === exp) {
