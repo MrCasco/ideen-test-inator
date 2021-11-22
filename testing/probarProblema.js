@@ -37,6 +37,11 @@ function getFunction(nombre) {
       case 'palindromo':
         temp = palindromo
         break;
+      case 'valoresEnComun':
+        temp = valoresEnComun
+        break;
+      case 'binarySearch':
+        temp = binarySearch
     }
   } catch (e) {
     return null

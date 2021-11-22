@@ -19,7 +19,7 @@ const faciles = {
       " ZeRo = ChUr\n"+
       " Elabora tu función de la siguiente manera: function cifradoCesar(frase){ ... }\n"+
       " Cuando hayas terminado teclea probarProblema('cifradoCesar')\n",
-  'coinMachine': " Una máquina que proporciona cambio.\n"+
+    'coinMachine': " Una máquina que proporciona cambio.\n"+
       " Suponga que le dan las monedas de:\n"+
       " 1 centavo, 5 centavos y 10 centavos con N =13 centavos.\n"+
       " ¿Cuál es el número total de combinaciones de las monedas que puede organizar para obtener 13 centavos?\n"+
@@ -71,15 +71,34 @@ const dificiles = {
     " Elabora tu función de la siguiente manera: function palindromo(str){ ... }\n"+
     " Cuando hayas terminado teclea probarProblema('palindromo')\n",
   'botePinturaAvanzado': " Existen 2 tipos de bote de pintura:\n"+
-      " El bote A tiene 5L y rinde para 10 mts su costo es de $35\n"+
-      " El bote B tiene 8L y rinde para 15 mts su costo es de $45\n"+
-      " Se da una cantidad de metros a pintar, y se tiene que determinar\n"+
-      "  cuántos botes le conviene comprar de cada tipo de bote y el costo final, y si sobra pintura en caso necesario.\n"+
+    " El bote A tiene 5L y rinde para 10 mts su costo es de $35\n"+
+    " El bote B tiene 8L y rinde para 15 mts su costo es de $45\n"+
+    " Se da una cantidad de metros a pintar, y se tiene que determinar\n"+
+    "  cuántos botes le conviene comprar de cada tipo de bote y el costo final, y si sobra pintura en caso necesario.\n"+
+    " Ejemplo:\n"+
+    " Input = 56  <- se recibe como entero\n"+
+    " Output = 4B <- se regresa como string\n"+
+    " (60 mts por 180) ya que se gasta menos pintura y menos dinero.\n"+
+    " Por favor regresa tus respuestas en forma de String y sin espacios\n"+
+    " Elabora tu función de la siguiente manera: function botePinturaAvanzado(x){ ... }\n"+
+    " Cuando hayas terminado teclea probarProblema('botePinturaAvanzado')\n",
+  'valoresEnComun': "Dado un arreglo con dos arreglos dentro, regresa\n"+
+      "true si los arreglos tienen valores en común, o false si no."+
       " Ejemplo:\n"+
-      " Input = 56  <- se recibe como entero\n"+
-      " Output = 4B <- se regresa como string\n"+
-      " (60 mts por 180) ya que se gasta menos pintura y menos dinero.\n"+
-      " Por favor regresa tus respuestas en forma de String y sin espacios\n"+
-      " Elabora tu función de la siguiente manera: function botePinturaAvanzado(x){ ... }\n"+
-      " Cuando hayas terminado teclea probarProblema('botePinturaAvanzado')\n"
-}
+      " Input = [4, 6, 7, 2, 1], [3, 8, 5, 2, 9]  <- se recibe como dos arreglos de enteros\n"+
+      " Output = true <- se regresa como un arreglo de enteros\n"+
+      " Input = [4, 6, 1, 3], [3, 2, 5, 1]  <- se recibe como dos arreglos de enteros\n"+
+      " Output = true <- se regresa como un arreglo de enteros\n"+
+      " Elabora tu función de la siguiente manera: function valoresEnComun(x, y){ ... }\n"+
+      " Cuando hayas terminado teclea probarProblema('valoresEnComun')\n",
+  'binarySearch': "Dado un arreglo con un un arreglo y un número dentro, ,\n"+
+      " encuentra el índice del arreglo en el que se encuentra el número utilizando \n"+
+      " un algoritmo de Binary Search. En caso de no existir regresa un -1. \n"+
+      " Ejemplo:\n"+
+      " Input = [1, 2, 4, 6, 7], 7  <- se recibe como dos arreglos de enteros\n"+
+      " Output = 4 <- se regresa como un arreglo de enteros\n"+
+      " Input = [1, 3, 4, 6], 5  <- se recibe como dos arreglos de enteros\n"+
+      " Output = -1 <- se regresa como un arreglo de enteros\n"+
+      " Elabora tu función de la siguiente manera: function valoresEnComun(x, y){ ... }\n"+
+      " Cuando hayas terminado teclea probarProblema('binarySearch')\n",
+};
