@@ -59,7 +59,7 @@ function probarProblema(nombre) {
 
   // Iteración para testear cada caso
   for (let i = 0; i < numPruebas; i++) {
-    [arg, exp] = Object.entries(respuestas)[i];
+    [arg, exp] = respuestas[i];
     // Dependiendo del resultado se agrega un true o false en el arreglo
     let response = testearProblema(arg, exp, funcion, nombre)
     if (response == false) {
