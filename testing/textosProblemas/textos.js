@@ -47,8 +47,8 @@ const dificiles = {
     " [1,2,3,4,5,2] = [null, null]:\n"+
     " Explicación: Ninguna pareja suma 2 en el arreglo\n "+
     " Ejemplo 3:\n"+
-    " [0,1,3,2] = [null, null]:\n"+
-    " Explicación: En el arreglo [0, 1, 3] ninguna pareja suma 2, ya que el último número no se cuenta\n "+
+    " '[0,1,2,2]' = [null, null]:\n"+
+    " Explicación: En el arreglo [0, 1, 2] ninguna pareja suma 2, ya que el último número no se cuenta\n "+
     " Elabora tu función de la siguiente manera: function twoSum(arr){ ... }\n"+
     " Cuando hayas terminado teclea probarProblema('twoSum')\n",
   'subsequence': " Dado un arreglo con 2 arreglos dentro, comprobar si el segundo de ellos \n"+
